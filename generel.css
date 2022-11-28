@@ -7,7 +7,7 @@
 
 /* Normalisering af font og linjehøjde på dokumentets tekster, samt nedtoning af tekstfarven */
 body {
-  font-family: brodtekst1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 1.6;
   color: black;
   background-color: rgb(170, 205, 180);
@@ -58,7 +58,7 @@ nav ul {
   padding-bottom: 0.4rem;
   gap: 30px;
   overflow-x: auto;
-  font-family: "brodtekst1";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 li {
@@ -72,40 +72,57 @@ a {
 }
 
 .forside {
-  font-family: "brodtekst1";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
 }
 
-.velkommen {
-  font-family: brodtekst1;
+.centrerettekst {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
   text-align: center;
+  color: rgb(207, 205, 205);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
 }
 
 .yvideo {
-  font-family: brodtekst1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
 }
 
 .introduktion {
-  font-family: brodtekst1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
 }
 
 .galleriet {
-  font-family: brodtekst1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
 }
 
 .billederne {
-  font-family: brodtekst1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
 }
 
 footer {
   text-align: center;
-  font-family: "brodtekst1";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-decoration: none;
   list-style-type: none;
   margin-bottom: 0px;
   margin-top: auto;
+}
+
+.oliver {
+  max-width: 100%;
+  height: auto;
 }
