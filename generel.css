@@ -1,0 +1,111 @@
+/* Nulstilling af margin og padding på alle elementer, samt ændring af box model på alle elementer */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 2px;
+}
+
+/* Normalisering af font og linjehøjde på dokumentets tekster, samt nedtoning af tekstfarven */
+body {
+  font-family: brodtekst1;
+  line-height: 1.6;
+  color: black;
+  background-color: rgb(170, 205, 180);
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Normalisering af billeder */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@font-face {
+  font-family: "overskrift1";
+  src: url(Roboto_Mono/RobotoMono-Bold.ttf);
+}
+
+@font-face {
+  font-family: "brodtekst1";
+  src: url(Roboto_Mono/RobotoMono-Thin.ttf);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 1rem 2rem;
+  box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: rgb(90, 103, 90);
+}
+
+nav {
+  --less-than: 670;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
+  font-family: "brodtekst1";
+}
+
+li {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+.forside {
+  font-family: "brodtekst1";
+  text-align: center;
+}
+
+.velkommen {
+  font-family: brodtekst1;
+  text-align: center;
+}
+
+.yvideo {
+  font-family: brodtekst1;
+  text-align: center;
+}
+
+.introduktion {
+  font-family: brodtekst1;
+  text-align: center;
+}
+
+.galleriet {
+  font-family: brodtekst1;
+  text-align: center;
+}
+
+.billederne {
+  font-family: brodtekst1;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-family: "brodtekst1";
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 0px;
+  margin-top: auto;
+}
